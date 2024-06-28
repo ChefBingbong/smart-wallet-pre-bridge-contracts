@@ -1,0 +1,25 @@
+# General
+.prettierignore
+.solhintignore
+.husky
+.gitignore
+.gitattributes
+.env.example
+.env
+
+.DS_STORE
+LICENSE
+
+
+# Hardhat
+coverage
+coverage.json
+artifacts
+cache
+typechained
+deployments
+
+# JS
+node_modules
+package-lock.json
+yarn.lock

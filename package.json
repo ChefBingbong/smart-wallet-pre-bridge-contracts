@@ -1,0 +1,30 @@
+{
+  "name": "smart-wallet-router-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "pnpm --filter example",
+    "test-contracts": "pnpm --filter @smart-wallet/contracts run test",
+    "deploy:contracts": "pnpm --filter @smart-wallet/contracts run deploy",
+    "run:script": "pnpm --filter @smart-wallet/contracts run script",
+    "sdk": "pnpm --filter @smart-wallet/smart-router-sdk",
+    "dev": "pnpm --recursive --parallel --stream run dev",
+    "build:packages": "pnpm --filter @smart-wallet/smart-router-sdk run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "5.2.2"
+  }
+}

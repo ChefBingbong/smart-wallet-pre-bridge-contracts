@@ -1,0 +1,132 @@
+{
+     "address": "0x580b978cC31aDb5065f9e8401f076b7Da7eD4b4A",
+     "abi": [
+          {
+               "inputs": [],
+               "name": "PANCAKE_V3_FACTORY_BSC",
+               "outputs": [
+                    {
+                         "internalType": "address",
+                         "name": "",
+                         "type": "address"
+                    }
+               ],
+               "stateMutability": "view",
+               "type": "function"
+          },
+          {
+               "inputs": [],
+               "name": "PANCAKE_V3_FACTORY_ETH",
+               "outputs": [
+                    {
+                         "internalType": "address",
+                         "name": "",
+                         "type": "address"
+                    }
+               ],
+               "stateMutability": "view",
+               "type": "function"
+          },
+          {
+               "inputs": [],
+               "name": "WETH_BSC",
+               "outputs": [
+                    {
+                         "internalType": "address",
+                         "name": "",
+                         "type": "address"
+                    }
+               ],
+               "stateMutability": "view",
+               "type": "function"
+          },
+          {
+               "inputs": [],
+               "name": "WETH_ETH",
+               "outputs": [
+                    {
+                         "internalType": "address",
+                         "name": "",
+                         "type": "address"
+                    }
+               ],
+               "stateMutability": "view",
+               "type": "function"
+          },
+          {
+               "inputs": [
+                    {
+                         "internalType": "address",
+                         "name": "WETH",
+                         "type": "address"
+                    },
+                    {
+                         "internalType": "address",
+                         "name": "quoteAsset",
+                         "type": "address"
+                    },
+                    {
+                         "internalType": "address",
+                         "name": "pancakeFactory",
+                         "type": "address"
+                    },
+                    {
+                         "internalType": "uint128",
+                         "name": "baseAmount",
+                         "type": "uint128"
+                    },
+                    {
+                         "internalType": "bool",
+                         "name": "inverse",
+                         "type": "bool"
+                    }
+               ],
+               "name": "getQuoteFromSqrtRatioX96",
+               "outputs": [
+                    {
+                         "internalType": "uint256",
+                         "name": "quoteAmount",
+                         "type": "uint256"
+                    }
+               ],
+               "stateMutability": "view",
+               "type": "function"
+          }
+     ],
+     "transactionHash": "0x06b1e93587603e30c137b0f718d6417288bd97f9e86d978c2d89a229b76b1b83",
+     "receipt": {
+          "to": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+          "from": "0xdBf48f5DB3d4bd13b9a29052947cB2edD6a2d132",
+          "contractAddress": null,
+          "transactionIndex": 0,
+          "gasUsed": "458627",
+          "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "blockHash": "0xd5973de83ee0ad9d8ac0bf06c9fc1eda9b21ddfb3f308b69290c18195a25b5b0",
+          "transactionHash": "0x06b1e93587603e30c137b0f718d6417288bd97f9e86d978c2d89a229b76b1b83",
+          "logs": [],
+          "blockNumber": 39536169,
+          "cumulativeGasUsed": "458627",
+          "status": 1,
+          "byzantium": true
+     },
+     "args": [],
+     "numDeployments": 2,
+     "solcInputHash": "238320169f6b702d822e2e2ca6fd7227",
+     "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"PANCAKE_V3_FACTORY_BSC\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"PANCAKE_V3_FACTORY_ETH\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"WETH_BSC\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"WETH_ETH\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"WETH\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"quoteAsset\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"pancakeFactory\",\"type\":\"address\"},{\"internalType\":\"uint128\",\"name\":\"baseAmount\",\"type\":\"uint128\"},{\"internalType\":\"bool\",\"name\":\"inverse\",\"type\":\"bool\"}],\"name\":\"getQuoteFromSqrtRatioX96\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"quoteAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/permit2/libraries/ContractAddresses.sol\":\"ContractAddresses\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[],\"viaIR\":true},\"sources\":{\"contracts/permit2/libraries/ContractAddresses.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity >=0.7.0 <0.9.0;\\n\\nimport \\\"./FullMath.sol\\\";\\n\\ninterface IPancakeSwapV3Pool {\\n     function slot0()\\n          external\\n          view\\n          returns (\\n               uint160 sqrtPriceX96,\\n               int24 tick,\\n               uint16 observationIndex,\\n               uint16 observationCardinality,\\n               uint16 observationCardinalityNext,\\n               uint8 feeProtocol\\n          );\\n\\n     function swap(int256 amount0, int256 amount1, address recipient, bytes calldata data) external;\\n}\\n\\ninterface IPancakeSwapV3Factory {\\n     function getPool(address tokenA, address tokenB, uint24 fee) external view returns (IPancakeSwapV3Pool pool);\\n}\\n\\nlibrary ContractAddresses {\\n     address public constant WETH_ETH = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c; // WETH on Binance Smart Chain\\n     address public constant PANCAKE_V3_FACTORY_ETH = 0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865; // USDT on Binance Smart Chain\\n\\n     address public constant WETH_BSC = 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd; // WETH on Binance Smart Chain\\n     address public constant PANCAKE_V3_FACTORY_BSC = 0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865; // USDT on Binance Smart Chain\\n\\n     function getContractAddresses(uint256 chainId) internal pure returns (address[2] memory) {\\n          address[2] memory addresses;\\n\\n          if (chainId == 1) {\\n               // Ethereum Mainnet\\n               addresses[0] = WETH_ETH; // WETH\\n               addresses[1] = PANCAKE_V3_FACTORY_ETH; // USDT\\n          } else if (chainId == 97) {\\n               // Binance Smart Chain Mainnet\\n               addresses[0] = WETH_BSC; // WETH\\n               addresses[1] = PANCAKE_V3_FACTORY_BSC; // USDT\\n          } else {\\n               revert(\\\"Chain ID not supported\\\");\\n          }\\n\\n          return addresses;\\n     }\\n\\n     function getQuoteFromSqrtRatioX96(\\n          address WETH,\\n          address quoteAsset,\\n          address pancakeFactory,\\n          uint128 baseAmount,\\n          bool inverse\\n     ) public view returns (uint256 quoteAmount) {\\n          IPancakeSwapV3Pool pool = IPancakeSwapV3Factory(pancakeFactory).getPool(WETH, quoteAsset, 2500);\\n          (uint160 sqrtRatioX96, , , , , ) = pool.slot0();\\n          if (sqrtRatioX96 <= type(uint128).max) {\\n               uint256 ratioX192 = uint256(sqrtRatioX96) * sqrtRatioX96;\\n               quoteAmount = !inverse\\n                    ? FullMath.mulDiv(ratioX192, baseAmount, 1 << 192)\\n                    : FullMath.mulDiv(1 << 192, baseAmount, ratioX192);\\n          } else {\\n               uint256 ratioX128 = FullMath.mulDiv(sqrtRatioX96, sqrtRatioX96, 1 << 64);\\n               quoteAmount = !inverse\\n                    ? FullMath.mulDiv(ratioX128, baseAmount, 1 << 128)\\n                    : FullMath.mulDiv(1 << 128, baseAmount, ratioX128);\\n          }\\n     }\\n}\\n\",\"keccak256\":\"0x92327e7d4f639b381d641438bf0367e00745d5bf7a5999ec188b1748866de00a\",\"license\":\"MIT\"},\"contracts/permit2/libraries/FullMath.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-2.0-or-later\\npragma solidity ^0.8.6;\\n\\n/// @title Contains 512-bit math functions\\n/// @notice Facilitates multiplication and division that can have overflow of an intermediate value without any loss of precision\\n/// @dev Handles \\\"phantom overflow\\\" i.e., allows multiplication and division where an intermediate value overflows 256 bits\\nlibrary FullMath {\\n     /// @notice Calculates floor(a\\u00d7b\\u00f7denominator) with full precision. Throws if result overflows a uint256 or denominator == 0\\n     /// @param a The multiplicand\\n     /// @param b The multiplier\\n     /// @param denominator The divisor\\n     /// @return result The 256-bit result\\n     /// @dev Credit to Remco Bloemen under MIT license https://xn--2-umb.com/21/muldiv\\n     function mulDiv(uint256 a, uint256 b, uint256 denominator) internal pure returns (uint256 result) {\\n          // 512-bit multiply [prod1 prod0] = a * b\\n          // Compute the product mod 2**256 and mod 2**256 - 1\\n          // then use the Chinese Remainder Theorem to reconstruct\\n          // the 512 bit result. The result is stored in two 256\\n          // variables such that product = prod1 * 2**256 + prod0\\n          uint256 prod0; // Least significant 256 bits of the product\\n          uint256 prod1; // Most significant 256 bits of the product\\n          assembly {\\n               let mm := mulmod(a, b, not(0))\\n               prod0 := mul(a, b)\\n               prod1 := sub(sub(mm, prod0), lt(mm, prod0))\\n          }\\n\\n          // Handle non-overflow cases, 256 by 256 division\\n          if (prod1 == 0) {\\n               require(denominator > 0);\\n               assembly {\\n                    result := div(prod0, denominator)\\n               }\\n               return result;\\n          }\\n\\n          // Make sure the result is less than 2**256.\\n          // Also prevents denominator == 0\\n          require(denominator > prod1);\\n\\n          ///////////////////////////////////////////////\\n          // 512 by 256 division.\\n          ///////////////////////////////////////////////\\n\\n          // Make division exact by subtracting the remainder from [prod1 prod0]\\n          // Compute remainder using mulmod\\n          uint256 remainder;\\n          assembly {\\n               remainder := mulmod(a, b, denominator)\\n          }\\n          // Subtract 256 bit number from 512 bit number\\n          assembly {\\n               prod1 := sub(prod1, gt(remainder, prod0))\\n               prod0 := sub(prod0, remainder)\\n          }\\n\\n          // Factor powers of two out of denominator\\n          // Compute largest power of two divisor of denominator.\\n          // Always >= 1.\\n          uint256 twos = type(uint256).max - denominator + 1;\\n          // Divide denominator by power of two\\n          assembly {\\n               denominator := div(denominator, twos)\\n          }\\n\\n          // Divide [prod1 prod0] by the factors of two\\n          assembly {\\n               prod0 := div(prod0, twos)\\n          }\\n          // Shift in bits from prod1 into prod0. For this we need\\n          // to flip `twos` such that it is 2**256 / twos.\\n          // If twos is zero, then it becomes one\\n          assembly {\\n               twos := add(div(sub(0, twos), twos), 1)\\n          }\\n          prod0 |= prod1 * twos;\\n\\n          // Invert denominator mod 2**256\\n          // Now that denominator is an odd number, it has an inverse\\n          // modulo 2**256 such that denominator * inv = 1 mod 2**256.\\n          // Compute the inverse by starting with a seed that is correct\\n          // correct for four bits. That is, denominator * inv = 1 mod 2**4\\n          uint256 inv = (3 * denominator) ^ 2;\\n          // Now use Newton-Raphson iteration to improve the precision.\\n          // Thanks to Hensel's lifting lemma, this also works in modular\\n          // arithmetic, doubling the correct bits in each step.\\n          inv *= 2 - denominator * inv; // inverse mod 2**8\\n          inv *= 2 - denominator * inv; // inverse mod 2**16\\n          inv *= 2 - denominator * inv; // inverse mod 2**32\\n          inv *= 2 - denominator * inv; // inverse mod 2**64\\n          inv *= 2 - denominator * inv; // inverse mod 2**128\\n          inv *= 2 - denominator * inv; // inverse mod 2**256\\n\\n          // Because the division is now exact we can divide by multiplying\\n          // with the modular inverse of denominator. This will give us the\\n          // correct result modulo 2**256. Since the precoditions guarantee\\n          // that the outcome is less than 2**256, this is the final result.\\n          // We don't need to compute the high bits of the result and prod1\\n          // is no longer required.\\n          result = prod0 * inv;\\n          return result;\\n     }\\n\\n     /// @notice Calculates ceil(a\\u00d7b\\u00f7denominator) with full precision. Throws if result overflows a uint256 or denominator == 0\\n     /// @param a The multiplicand\\n     /// @param b The multiplier\\n     /// @param denominator The divisor\\n     /// @return result The 256-bit result\\n     function mulDivRoundingUp(uint256 a, uint256 b, uint256 denominator) internal pure returns (uint256 result) {\\n          result = mulDiv(a, b, denominator);\\n          if (mulmod(a, b, denominator) > 0) {\\n               require(result < type(uint256).max);\\n               result++;\\n          }\\n     }\\n}\\n\",\"keccak256\":\"0x4befc911a0bf1f1393178d0888d5a07075cc122bd40b3d47b012d169edb22cd1\",\"license\":\"GPL-2.0-or-later\"}},\"version\":1}",
+     "bytecode": "0x6080806040523461001a576107569081610020823930815050f35b600080fdfe60806040818152600436101561001457600080fd5b600090813560e01c9283634ea5fc86146102e4575082635ec3aa4b146102bc5782636880c5c8146102b1578263a60ff2b21461006457505063d4dc02421461005c575b600080fd5b61005761030d565b60a03660031901126102aa576004359173ffffffffffffffffffffffffffffffffffffffff908184168094036102ae57602435938285168095036102aa57604435908382168092036102a657606435936fffffffffffffffffffffffffffffffff9182861680960361025157608435938415948515036102555787519889927f1698ee82000000000000000000000000000000000000000000000000000000008452600484015260248301526109c4604483015281606460209a8b935afa90811561026157908291869161026b575b5060c09060048951809481937f3850c7bd000000000000000000000000000000000000000000000000000000008352165afa9081156102615785916101dc575b50169081116101ad57806101869161037f565b91501561019f579061019791610693565b905b51908152f35b6101a891610637565b610197565b806101b7916103a8565b9150156101ce57906101c89161059d565b90610199565b6101d791610437565b6101c8565b905060c0813d8211610259575b816101f660c09383610338565b8101031261025157805190828216820361025557888101518060020b0361025557806102258960a09301610370565b5061023260608201610370565b5061023f60808201610370565b50015160ff8116036102515788610173565b8480fd5b8580fd5b3d91506101e9565b87513d87823e3d90fd5b809250898092503d831161029f575b6102848183610338565b810103126102515751818116810361025157819060c0610133565b503d61027a565b8280fd5b5080fd5b80fd5b50505061005761030d565b816003193601126102aa576020905173bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c8152f35b9050816003193601126102aa578073ae13d989dac2f0debff460ac112a837c89baa7cd60209252f35b506000366003190112610057576020604051730bfbcf9fa4f9c56b0f40a671ad40e0805a0918658152f35b90601f8019910116810190811067ffffffffffffffff82111761035a57604052565b634e487b7160e01b600052604160045260246000fd5b519061ffff8216820361005757565b8181029291811591840414171561039257565b634e487b7160e01b600052601160045260246000fd5b6000198282098282029182808310920393828503926000951461042c57680100000000000000009183831115610255570990828211848183039561041857501460018480041417156103925767ffffffffffffffff19910304178060071b90808204608014901517156103925790565b80634e487b7160e01b602492526011600452fd5b505050905060401c90565b90919060001970010000000000000000000000000000000081838209908360801b9384808410930392808403931461058d578287111561005757869109851995600187019283881161039257600184806104a094049660009a8b0301040190868411900361037f565b9280600302966003880482036104185760028098186104bf818461037f565b89039089821161057957906104d39161037f565b6104dd818461037f565b89039089821161057957906104f19161037f565b6104fb818461037f565b890390898211610579579061050f9161037f565b610519818461037f565b890390898211610579579061052d9161037f565b610537818461037f565b890390898211610579576105559161054e9161037f565b809361037f565b88039788116104185750610576959661056d9161037f565b9303041761037f565b90565b602483634e487b7160e01b81526011600452fd5b5050505082919215610057570490565b6000198282098282029182808310920393828503926000951461062c57700100000000000000000000000000000000918383111561025557099082821184818303956104185750146001848004141715610392577fffffffffffffffffffffffffffffffff00000000000000000000000000000000910304178060071b90808204608014901517156103925790565b505050905060801c90565b909190600019600160c01b81838209908360c01b9384808410930392808403931461058d578287111561005757869109851995600187019283881161039257600184806104a094049660009a8b0301040190868411900361037f565b6000198282098282029182808310920393828503926000951461071557600160c01b918383111561025557099082821184818303956104185750146001848004141715610392577fffffffffffffffff000000000000000000000000000000000000000000000000910304178060071b90808204608014901517156103925790565b505050905060c01c9056fea2646970667358221220790541f7574c91eb858f52d9a06965e7ff2c3c0d756e3e4bf8ba33fd674b363064736f6c63430008110033",
+     "deployedBytecode": "0x60806040818152600436101561001457600080fd5b600090813560e01c9283634ea5fc86146102e4575082635ec3aa4b146102bc5782636880c5c8146102b1578263a60ff2b21461006457505063d4dc02421461005c575b600080fd5b61005761030d565b60a03660031901126102aa576004359173ffffffffffffffffffffffffffffffffffffffff908184168094036102ae57602435938285168095036102aa57604435908382168092036102a657606435936fffffffffffffffffffffffffffffffff9182861680960361025157608435938415948515036102555787519889927f1698ee82000000000000000000000000000000000000000000000000000000008452600484015260248301526109c4604483015281606460209a8b935afa90811561026157908291869161026b575b5060c09060048951809481937f3850c7bd000000000000000000000000000000000000000000000000000000008352165afa9081156102615785916101dc575b50169081116101ad57806101869161037f565b91501561019f579061019791610693565b905b51908152f35b6101a891610637565b610197565b806101b7916103a8565b9150156101ce57906101c89161059d565b90610199565b6101d791610437565b6101c8565b905060c0813d8211610259575b816101f660c09383610338565b8101031261025157805190828216820361025557888101518060020b0361025557806102258960a09301610370565b5061023260608201610370565b5061023f60808201610370565b50015160ff8116036102515788610173565b8480fd5b8580fd5b3d91506101e9565b87513d87823e3d90fd5b809250898092503d831161029f575b6102848183610338565b810103126102515751818116810361025157819060c0610133565b503d61027a565b8280fd5b5080fd5b80fd5b50505061005761030d565b816003193601126102aa576020905173bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c8152f35b9050816003193601126102aa578073ae13d989dac2f0debff460ac112a837c89baa7cd60209252f35b506000366003190112610057576020604051730bfbcf9fa4f9c56b0f40a671ad40e0805a0918658152f35b90601f8019910116810190811067ffffffffffffffff82111761035a57604052565b634e487b7160e01b600052604160045260246000fd5b519061ffff8216820361005757565b8181029291811591840414171561039257565b634e487b7160e01b600052601160045260246000fd5b6000198282098282029182808310920393828503926000951461042c57680100000000000000009183831115610255570990828211848183039561041857501460018480041417156103925767ffffffffffffffff19910304178060071b90808204608014901517156103925790565b80634e487b7160e01b602492526011600452fd5b505050905060401c90565b90919060001970010000000000000000000000000000000081838209908360801b9384808410930392808403931461058d578287111561005757869109851995600187019283881161039257600184806104a094049660009a8b0301040190868411900361037f565b9280600302966003880482036104185760028098186104bf818461037f565b89039089821161057957906104d39161037f565b6104dd818461037f565b89039089821161057957906104f19161037f565b6104fb818461037f565b890390898211610579579061050f9161037f565b610519818461037f565b890390898211610579579061052d9161037f565b610537818461037f565b890390898211610579576105559161054e9161037f565b809361037f565b88039788116104185750610576959661056d9161037f565b9303041761037f565b90565b602483634e487b7160e01b81526011600452fd5b5050505082919215610057570490565b6000198282098282029182808310920393828503926000951461062c57700100000000000000000000000000000000918383111561025557099082821184818303956104185750146001848004141715610392577fffffffffffffffffffffffffffffffff00000000000000000000000000000000910304178060071b90808204608014901517156103925790565b505050905060801c90565b909190600019600160c01b81838209908360c01b9384808410930392808403931461058d578287111561005757869109851995600187019283881161039257600184806104a094049660009a8b0301040190868411900361037f565b6000198282098282029182808310920393828503926000951461071557600160c01b918383111561025557099082821184818303956104185750146001848004141715610392577fffffffffffffffff000000000000000000000000000000000000000000000000910304178060071b90808204608014901517156103925790565b505050905060c01c9056fea2646970667358221220790541f7574c91eb858f52d9a06965e7ff2c3c0d756e3e4bf8ba33fd674b363064736f6c63430008110033",
+     "devdoc": {
+          "kind": "dev",
+          "methods": {},
+          "version": 1
+     },
+     "userdoc": {
+          "kind": "user",
+          "methods": {},
+          "version": 1
+     },
+     "storageLayout": {
+          "storage": [],
+          "types": null
+     }
+}

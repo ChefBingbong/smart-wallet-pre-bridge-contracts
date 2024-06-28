@@ -1,0 +1,58 @@
+{
+      "name": "@smart-wallet/smart-router-sdk",
+      "version": "0.0.1",
+      "description": "🛠 An SDK for next-gen evm transactions",
+      "main": "dist/index.js",
+      "typings": "dist/index.d.ts",
+      "module": "dist/index.mjs",
+      "files": [
+            "dist"
+      ],
+      "exports": {
+            ".": {
+                  "types": "./dist/index.d.ts",
+                  "import": "./dist/index.mjs",
+                  "require": "./dist/index.js"
+            },
+            "./package.json": "./package.json"
+      },
+      "repository": {
+            "type": "git",
+            "url": "https://github.com/ChefBingbong/smart-Wallet-Router-SDK.git",
+            "directory": "packages/smart-wallet-sdk"
+      },
+      "scripts": {
+            "build": "tsup",
+            "dev": "tsup --watch",
+            "format:check": "prettier --check --loglevel error \"{src,test}/**/*.{js,jsx,ts,tsx,json}\"",
+            "format:write": "prettier --write \"{src,test}/**/*.{js,jsx,ts,tsx,json}\"",
+            "lint": "eslint '{src,test}/**/*.{js,jsx,ts,json}'"
+      },
+      "devDependencies": {
+            "ethers": "^5.4.7",
+            "ts-node": "^10.9.1",
+            "tslib": "^2.6.2",
+            "tsup": "^8.0.2"
+      },
+      "dependencies": {
+            "@ethersproject/abi": "^5.4.7",
+            "@ethersproject/providers": "^5.4.7",
+            "@pancakeswap/chains": "^0.4.1",
+            "@pancakeswap/pcsx-sdk": "^0.0.2",
+            "@pancakeswap/permit2-sdk": "^1.0.2",
+            "@pancakeswap/price-api-sdk": "^1.1.1",
+            "@pancakeswap/sdk": "5",
+            "@pancakeswap/smart-router": "5",
+            "@pancakeswap/swap-sdk-core": "^1.1.0",
+            "@pancakeswap/tokens": "^0.6.11",
+            "@pancakeswap/universal-router-sdk": "^1.0.14",
+            "@pancakeswap/v3-sdk": "^3.8.0",
+            "@uniswap/permit2-sdk": "^1.2.0",
+            "abitype": "^1.0.2",
+            "chalk": "4.1.2",
+            "dotenv": "^16.0.3",
+            "lodash": "^4.17.21",
+            "tiny-invariant": "^1.3.3",
+            "viem": "^2.9.5"
+      }
+}

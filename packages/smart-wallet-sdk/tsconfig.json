@@ -1,0 +1,36 @@
+{
+	"extends": "../../tsconfig.json",
+	"include": ["src"],
+	"exclude": ["./dist/**"],
+
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"target": "es2020",
+		"lib": ["ES2021", "dom"],
+		
+		"importHelpers": true,
+		"declaration": true,
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"skipLibCheck": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"resolveJsonModule": true,
+		"composite": false,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"inlineSources": false,
+		"isolatedModules": true,
+		"moduleResolution": "node",
+		"preserveWatchOutput": true,
+	}
+}
+

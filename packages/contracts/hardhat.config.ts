@@ -98,7 +98,7 @@ const config: HardhatUserConfig = {
       accounts: env.getAccounts("bnb-testnet"),
     },
     bnbTestnet: {
-      url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+      url: "https://data-seed-prebsc-1-s2.binance.org:8545/",
       accounts: env.getAccounts("bnb-testnet"),
     },
     moonbeamMainnet: {
@@ -158,37 +158,6 @@ const config: HardhatUserConfig = {
     showMethodSig: true,
     onlyCalledMethods: false,
     excludeContracts: ["ERC20"],
-  },
-  etherscan: {
-    apiKey: {
-      ...env.getEtherscanAPIKeys([
-        "ethereum-ropsten",
-        "ethereum-rinkeby",
-        "ethereum-kovan",
-        "ethereum-goerli",
-        "ethereum",
-        "optimism",
-        "optimism-kovan",
-        "arbitrum",
-        "arbitrum-rinkeby",
-        "polygon",
-        "polygon-mumbai",
-        "bnb",
-        "bnb-testnet",
-        "bscTestnet",
-      ]),
-      "base-goerli": "PLACEHOLDER_STRING",
-    },
-    customChains: [
-      {
-        network: "base-goerli",
-        chainId: 84531,
-        urls: {
-          apiURL: "https://api-goerli.basescan.org/api",
-          browserURL: "https://goerli.basescan.org",
-        },
-      },
-    ],
   },
 };
 

@@ -11,5 +11,5 @@
 		"composite": true
 	},
 	"include": ["./test", "./src", "./utils", "typechain/**/*"],
-	"files": ["./hardhat.config.ts", "./utils/env.ts"]
+	"files": ["./utils/env.ts"]
 }
